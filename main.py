@@ -339,4 +339,3 @@ if __name__ == "__main__":
     sys.argv = ["streamlit", "run", "main.py"]
     feature_extractor = DICOMFeatureExtractor()
     feature_extractor.run()
-    sys.exit(stcli.main())
